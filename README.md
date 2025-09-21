@@ -1,5 +1,7 @@
 # Reaction Game on STM32F767 (Nucleo‑F767ZI)
 
+https://www.tiktok.com/@carloscarpio82/video/7552605792403262742?is_from_webapp=1&sender_device=pc&web_id=7490154445721781782
+
 A simple two‑player reflex game built with STM32Cube HAL and PlatformIO. Two players each have one push button and one LED. A separate "reflex" LED turns on after a random delay. As soon as the reflex LED turns on, the first player to press their button wins the round and their LED turns on. If any player presses too early (before the reflex LED turns on), the other player wins.
 
 This repo also includes small debug helpers (startup LED test, heartbeat, input mirroring) so you can verify your wiring quickly in the lab.
